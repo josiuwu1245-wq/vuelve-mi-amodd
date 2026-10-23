@@ -1,0 +1,300 @@
+c33c3cc <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para mi amor </title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;min-height:100vh;color:#fff0fb;
+ font-family:Georgia,serif;overflow-x:hidden;
+ background:radial-gradient(ellipse at top left,#541568,transparent 45%),
+ radial-gradient(ellipse at bottom right,#650d36,transparent 45%),
+ linear-gradient(145deg,#09040f,#1a0627,#260719);
+}
+.floaters{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+.floater{position:absolute;bottom:-50px;color:#ff75c8;
+ animation:rise linear infinite;text-shadow:0 0 15px #ff3f78}
+@keyframes rise{
+ 0%{transform:translateY(0) rotate(0);opacity:0}
+ 15%{opacity:.8}100%{transform:translateY(-115vh) rotate(40deg);opacity:0}
+}
+.screen{min-height:100vh;display:flex;align-items:center;
+ justify-content:center;padding:25px;position:relative}
+.cover{max-width:700px;text-align:center;padding:40px 25px;
+ border:1px solid #ff75c866;border-radius:25px;
+ background:#14081cd9;box-shadow:0 0 50px #a12b7d30;
+ animation:appear 1s ease}
+@keyframes appear{from{opacity:0;transform:translateY(25px)}
+ to{opacity:1;transform:translateY(0)}}
+h1{font-size:clamp(2.5rem,8vw,5rem);color:#ffd0f0;
+ text-shadow:0 0 22px #ff3f78}
+.subtitle{line-height:1.8;color:#e9cbe9}
+.heart{font-size:60px;animation:beat 1s infinite}
+@keyframes beat{50%{transform:scale(1.2)}}
+button{border:1px solid #ffb4e2;border-radius:30px;
+ padding:15px 24px;color:white;font-size:16px;cursor:pointer;
+ background:linear-gradient(110deg,#8525a8,#c52d78,#e04468);
+ box-shadow:0 8px 28px #b3287a40;transition:.3s}
+button:hover{transform:translateY(-3px)}
+#letterScreen{display:none;align-items:flex-start}
+.wrap{max-width:850px;width:100%;margin:auto}
+.heading{text-align:center;color:#ffc5ed;margin-bottom:25px}
+.heading h2{font-size:clamp(2rem,6vw,3.4rem)}
+.letter{padding:clamp(22px,5vw,50px);border:1px solid #d77acb66;
+ border-radius:22px;background:linear-gradient(145deg,#210d31f5,#18091ff5,#2c0b24f5);
+ box-shadow:0 0 55px #b52a7c21;line-height:1.95;font-size:17px}
+.letter p{margin-bottom:22px}
+.letter strong{color:#ffaddd;font-weight:normal}
+.saludo{font-size:25px;color:#ffb4e3}
+.divider{text-align:center;color:#ff6ebc;letter-spacing:8px;margin:28px}
+.closing{text-align:center;padding:25px;margin-top:25px;
+ border:1px solid #a879ff44;border-radius:20px;background:#1a0926}
+.closing h2{color:#ffb5e3}
+.actions{display:flex;gap:12px;justify-content:center;
+ flex-wrap:wrap;margin-top:25px}
+.secondary{background:#2a1238}
+.footer{text-align:center;color:#c6a1ca;font-size:12px;margin:25px}
+.burst{position:fixed;pointer-events:none;animation:burst 1.2s forwards}
+@keyframes burst{to{opacity:0;transform:translate(var(--x),var(--y)) scale(1.5)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="floaters" id="floaters"></div>
+
+<section class="screen" id="coverScreen">
+ <div class="cover">
+  <div> oña </div>
+  <div class="heart">💗</div>
+  <h1>de ti hace 670000 años </h1>
+  <p class="subtitle">
+   Tengo tantas cosas que decirte, mi amor... unu 
+  </p>
+  <button id="openBtn">💌 Abrir mi lado migajero </button>
+  <p> perdon unu >
+</section>
+
+<section class="screen" id="letterScreen">
+ <div class="wrap">
+  <header class="heading">
+   <div> lee mi lado mas migajero me arrastro </div>
+   <h2>Mi niña </h2>
+   🌹 💗 🥀 💌 🥀 💗 🌹
+  </header>
+
+  <article class="letter">
+   <p class="saludo">tu eres mi amor tu eres vida tu eres mi todo 💗😭</p>
+
+   <p>Ay, chikitita no sé ni cómo empezar esto, de verdad.
+   Tengo tantas cosas que decirte y tantas ganas de que me escuches
+   aunque sea un ratito. Primero que nada:
+   <strong>perdóname, mi niña, por favor, perdóname por haber sido
+   un mal novio, por fallarte y por lastimar lo más bonito que teníamos.</strong>
+   Perdón por mis errores, por mis tonterías, por no pensar bien
+   las cosas y por no cuidar tu corazoncito como debía.
+   Me arrepiento un montón, mi amor. Ojalá pudiera regresar el tiempo
+   y decirme que cuidara a la niña que tanto ama y que no echara
+   a perder algo tan hermoso.</p>
+
+   <p>Mi amorrr, me duele muchísimo saber que por mis errores
+   llegamos a estar así. Pienso en todo lo que vivimos, en nuestras
+   risas, nuestros mensajitos, nuestras llamadas, nuestros apodos
+   y en cómo cualquier cosita tuya me podía arreglar el día.
+   Daría lo que fuera por volver a tener un ratito bonito contigo,
+   por hablarte como antes y decirte cuánto te amo sin tanta tristeza
+   entre nosotros. <strong>Extraño a mi niña, extraño mi lugarcito
+   contigo, extraño ese nosotros que tanto quería.</strong></p>
+
+   <p>Y sí, mi amor, aquí estoy, bien migajero, diciéndote que no
+   quiero perderte y que todavía tengo esperanza de que podamos
+   arreglarlo. No te voy a mentir ni a hacerme el fuerte:
+   yo sí quiero volver contigo, sí quiero intentarlo y sí quiero
+   que nos demos una oportunidad para hacer las cosas mejor.
+   Te extraño muchísimo, mi niña preciosa. Extraño saber de vos,
+   cómo estuvo tu día, qué te hizo reír, qué te puso triste y qué
+   querés contarme. Esas pequeñas cosas para mí eran todo porque
+   venían de vos.</p>
+
+   <p><strong>Mi amorrr, en serio no quiero dejarte ir.
+   Sos mi todo, mi mundo entero, mi personita favorita y esa niña
+   que se me viene a la cabeza hasta cuando estoy haciendo cualquier cosa.</strong>
+   Quisiera que pudiéramos hablar con calma y decirnos todo lo que
+   llevamos guardado. Quisiera explicarte cuánto me arrepiento
+   y, más que explicártelo, demostrarte con mis acciones que aprendí.
+   Sé que no basta con decir “perdón, mi amor” mil veces.
+   Tengo que demostrar que puedo tratarte mejor.</p>
+
+   <p>Perdón por ser tan menso, por no valorar como debía lo que tenía,
+   por no entender ciertas cosas a tiempo y por dejar que mis errores
+   nos hicieran daño. Perdón por las veces que te hice dudar de cuánto
+   te amo. Nunca quise que sintieras que no eras suficiente,
+   porque para mí sos demasiado especial. Quiero cambiar lo que me
+   toca cambiar y hacer las cosas de otra manera.</p>
+
+   <div class="divider">♡ · · · ♡ · · · ♡</div>
+
+   <p>Yo sé que los dos cometimos errores, mi amor, y que nos hicimos
+   daño. Sé que hay cosas que todavía duelen y que no se arreglan
+   de un día para otro. No quiero hacer como si nada hubiera pasado,
+   ni pedirte que olvides todo nomás porque te extraño. Pero, mi vida,
+   si todavía queda aunque sea un poquito de ganas de intentarlo,
+   <strong>por favor, hablemos, intentémoslo despacito y démosle
+   una oportunidad a este amor que significó tanto para nosotros.</strong>
+   No te pido que todo vuelva a ser perfecto mañana; solo quisiera
+   que hablemos de corazón a corazón.</p>
+
+   <p>Es que yo todavía me imagino un futuro contigo, ¿sabés?
+   Me imagino compartiendo más meses, cumpleaños, fechas especiales,
+   abrazos y recuerdos. Me imagino contándote mis cosas, escuchando
+   las tuyas, apoyándote cuando estés cansada y celebrando tus logros.
+   Me imagino haciendo planes contigo y riéndonos de cualquier cosa
+   como dos mensos enamorados. Tal vez suene cursi y migajero,
+   pero es lo que siento: <strong>yo todavía te quiero en mi vida.</strong></p>
+
+   <p>Por favorrr, mi niña, no pensemos que todo lo bonito desapareció
+   solo porque las cosas se pusieron difíciles. Si vos también querés,
+   podemos aprender a hablarnos mejor, escucharnos y no repetir las
+   cosas que nos lastimaron. Quiero volver a ser esa parejita que se
+   contaba todo, que se hacía reír y que se apoyaba. Pero no quiero
+   volver para hacer lo mismo de antes: quiero hacerlo mejor,
+   madurar juntos y cuidarnos incluso cuando haya problemas.</p>
+
+   <p>Mi amorrr, te lo pido desde lo más profundo de mi corazoncito:
+   <strong>si todavía me querés y te nace intentarlo, no nos rindamos
+   sin hablarlo.</strong> Dame la oportunidad de demostrarte con hechos
+   que puedo aprender de mis errores. Quiero recuperar tu confianza
+   poquito a poquito, sin exigirte que me creas inmediatamente.
+   Sé que esa confianza se gana y quiero hacerme responsable de ganármela.
+   Quiero que un día puedas ver que las cosas cambiaron porque lo
+   demostré, no solo porque lo prometí en una carta.</p>
+
+   <p>Te amo muchísimo, mi niña hermosa. Muchísimo, muchísimo,
+   muchísimo. Quisiera darte un abrazo de esos que duran un montón,
+   pedirte perdón mirándote a los ojos y decirte que me importás
+   demasiado. Quisiera volver a mandarte mensajitos bonitos,
+   preguntarte si ya comiste, desearte buenas noches y recordarte
+   que sos una personita muy especial para mí. Extraño nuestras
+   cursilerías, hasta las cosas más pequeñas que antes quizá no
+   pensaba que iba a extrañar tanto.</p>
+
+   <p>Y perdón si esta carta parece que me estoy arrastrando por vos,
+   mi amor 😭💗, pero no quiero hacerme el orgulloso cuando lo que
+   siento es que te extraño y quiero arreglar las cosas. No quiero
+   fingir que no me importa ni guardarme todo por orgullo.
+   Te quiero, te extraño y me gustaría volver a intentarlo.
+   Así, sin hacerme el fuerte. Pero tampoco quiero que te quedes
+   por lástima ni que sientas que me debés otra oportunidad;
+   quiero que, si volvemos, sea porque vos también lo deseás.</p>
+
+   <p>Mi niña, por favor, pensemos las cosas con calma.
+   Estoy dispuesto a escuchar lo que te dolió, aceptar lo que hice
+   mal y hablar de lo que necesitamos para que esto funcione.
+   No quiero ganar una discusión ni demostrar quién tuvo más culpa;
+   quiero que podamos entendernos. Quiero aprender a cuidarte mejor,
+   tener paciencia, hablar en vez de lastimar y demostrarte mi amor
+   de una forma que te haga sentir tranquila y querida.</p>
+
+   <p>Yo no quiero un amor perfecto, mi amorrr. Quiero un amor real,
+   con dos personas que se equivocan, pero que saben reconocerlo,
+   pedir perdón y hacer cambios. Quiero que podamos empezar de nuevo
+   si los dos estamos de acuerdo, sin borrar nuestra historia,
+   pero aprendiendo de ella. Quiero más momentos bonitos, más
+   conversaciones sinceras y más detalles que nos recuerden por
+   qué nos elegimos en primer lugar.</p>
+
+   <p><strong>Te amo, mi amor. Te amo y todavía tengo muchas ganas
+   de nosotros.</strong> No sé si esta carta consiga explicarte todo
+   lo que llevo dentro, pero ojalá te haga sentir lo importante
+   que sos para mí. No te pido una respuesta inmediata ni que tomes
+   una decisión por presión. Solo quería abrirte mi corazón y decirte
+   que, si vos también querés, yo quisiera intentarlo otra vez.</p>
+
+   <p>Perdón por todo, mi niña preciosa. Perdón por mis errores,
+   por mis fallas y por las veces que no supe ser el novio que
+   necesitabas. Quiero aprender a ser mejor, no solo para recuperarte,
+   sino porque sé que es lo correcto. Si me das la oportunidad,
+   quiero demostrarlo paso a paso, con paciencia y cumpliendo
+   las pequeñas cosas todos los días.</p>
+
+   <p>Mi amorrr, ojalá podamos volver a hablar bonito, volver a reír
+   juntos y construir algo que nos haga bien a los dos. Ojalá podamos
+   sanar, aprender y encontrar otra vez ese cariño que nos hizo felices.
+   Todavía tengo muchísimas ganas de abrazarte, cuidarte y decirte
+   lo mucho que te amo. Si tu corazón también quiere intentarlo,
+   acá estoy, dispuesto a hablar y a poner de mi parte de verdad. ❤️‍🩹</p>
+
+   <p style="text-align:center;font-size:23px;color:#ffc0e7">
+   Perdón, mi vida. Te extraño muchísimo.<br>
+   <strong>Te amo un montón, mi niña bonita. 💌💗</strong>
+   </p>
+  </article>
+
+  <div class="closing">
+   <h2>Vos y yo… si los dos queremos. </h2>
+   <p>No quiero un amor perfecto, mi amor. Quiero un amor sincero,
+   que aprenda, que se cuide y que se elija con libertad todos los días.</p>
+   <div style="font-size:28px">💗 🌹 ❤️ 🌹 💗</div>
+  </div>
+
+  <div class="actions">
+   <button class="secondary" id="againBtn">↻ Volver a leer</button>
+   <button id="heartsBtn">💞 Llenar de corazones</button>
+  </div>
+  <div class="footer">para ti dentro de 67000 años ✨</div>
+ </div>
+</section>
+
+<script>
+const floaters=document.getElementById('floaters');
+const symbols=['♡','♥','❤','💗','✦','✧'];
+
+for(let i=0;i<28;i++){
+ const el=document.createElement('span');
+ el.className='floater';
+ el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+ el.style.left=Math.random()*100+'%';
+ el.style.animationDuration=(9+Math.random()*13)+'s';
+ el.style.animationDelay=(-Math.random()*20)+'s';
+ el.style.fontSize=(14+Math.random()*23)+'px';
+ floaters.appendChild(el);
+}
+
+const cover=document.getElementById('coverScreen');
+const letter=document.getElementById('letterScreen');
+
+document.getElementById('openBtn').addEventListener('click',()=>{
+ cover.style.display='none';
+ letter.style.display='flex';
+ window.scrollTo({top:0,behavior:'smooth'});
+ burstHearts(window.innerWidth/2,window.innerHeight*.7,22);
+});
+
+document.getElementById('againBtn').addEventListener('click',()=>{
+ letter.style.display='none';
+ cover.style.display='flex';
+ window.scrollTo({top:0,behavior:'smooth'});
+});
+
+function burstHearts(x,y,count=28){
+ for(let i=0;i<count;i++){
+  const h=document.createElement('span');
+  h.className='burst';
+  h.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+  h.style.left=x+'px';
+  h.style.top=y+'px';
+  h.style.color=['#ff75c8','#ff3f78','#c49aff','#fff0fb'][Math.floor(Math.random()*4)];
+  h.style.setProperty('--x',(Math.random()*360-180)+'px');
+  h.style.setProperty('--y',(Math.random()*-300-30)+'px');
+  document.body.appendChild(h);
+  setTimeout(()=>h.remove(),1300);
+ }
+}
+
+document.getElementById('heartsBtn').addEventListener('click',()=>{
+ burstHearts(window.innerWidth/2,window.scrollY+window.innerHeight*.55,45);
+});
+</script>
+</body>
+</html>
